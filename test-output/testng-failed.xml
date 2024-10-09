@@ -11,4 +11,24 @@
       </class> <!-- com.SeleniumGrid.ParallelTestonGrid -->
     </classes>
   </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="bname" value="firefox"/>
+    <classes>
+      <class name="com.SeleniumGrid.ParallelTestonGrid">
+        <methods>
+          <include name="testparallel" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.SeleniumGrid.ParallelTestonGrid -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test3(failed)">
+    <parameter name="bname" value="edge"/>
+    <classes>
+      <class name="com.SeleniumGrid.ParallelTestonGrid">
+        <methods>
+          <include name="testparallel" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.SeleniumGrid.ParallelTestonGrid -->
+    </classes>
+  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite] -->

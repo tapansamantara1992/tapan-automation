@@ -19,7 +19,7 @@ public class ParallelTestonGrid {
 	 @Test
 	 public void testparallel(String bname) throws MalformedURLException, InterruptedException
   {
-	 if(bname.equals("Chrome"))
+	 if(bname.equals("chrome"))
 	 {
 		 ChromeOptions cap=new ChromeOptions();
 		 driver=new RemoteWebDriver(new URL("http://localhost:4444"),cap);
