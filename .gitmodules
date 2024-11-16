@@ -1,0 +1,3 @@
+[submodule "trainngGrid"]
+	path = trainngGrid
+	url = https://github.com/tapansamantara1992/trainng.git
